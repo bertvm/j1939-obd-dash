@@ -1,0 +1,7 @@
+dependencies:
+  idf: ">=5.1.0"
+  lvgl/lvgl:
+    version: "~8.3.11"
+    public: true
+  espressif/esp_lcd_touch_gt911: "^1"
+  espressif/cjson: "^1.7.19"

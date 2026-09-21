@@ -1,0 +1,29 @@
+{
+  "messages": [
+    {
+      "name": "oem_engine_1",
+      "id": "0x18FF50E5",
+      "id_mask": "0x1FFFFFFF",
+      "extended": true,
+      "dlc": 8,
+      "mux": { "start_bit": 0, "length": 8, "value": 1 },
+      "signals": [
+        {
+          "signal_id": "rpm",
+          "start_bit": 16,
+          "length": 16,
+          "endian": "intel",
+          "signed": false,
+          "scale": 0.125,
+          "offset": 0,
+          "min": 0,
+          "max": 8000,
+          "unit": "rpm"
+        }
+      ]
+    }
+  ],
+  "telltale_map": [
+    { "signal_id": "mil", "icon": "mil", "on_value": 1 }
+  ]
+}
